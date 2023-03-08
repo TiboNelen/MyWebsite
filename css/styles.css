@@ -112,16 +112,43 @@
     object-fit: contain;
   }
 
-  /* Fake image, just for this example */
+  /* Profiel image */
   .profielimg {
     background-color: transparant;
     width: 100%;
     padding: 0px;
     object-fit: contain;
+    object-position: left;
+  }
+
+  /* Image van de scholen */
+  .schoolimg {
+    background-color: transparent;
+    width: 3%;
+    padding: 2px;
+    object-fit: contain;
+  }
+
+  /* Image van de scholen */
+  .schoolimg2 {
+    background-color: transparent;
+    width: 5%;
+    padding: 5px;
+    object-fit: contain;
+  }
+
+  /* Fake image, just for this example */
+  .skillimg {
+    background-color:transparent;
+    width: 100%;
+    padding: 0px;
+    object-fit: contain;
+    object-position: left;
   }
 
   /* Footer */
   .footer {
+    color: white;
     padding: 0px;
     text-align: center;
     background-image:url("img/EkrqXP9WAAAgvlc-kopie.jpg");
@@ -129,8 +156,6 @@
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
-    
-   
   }
   
 
